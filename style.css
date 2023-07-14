@@ -120,14 +120,14 @@ button:hover{
     width: 40%;
     height: 150px;
     float:left;
-    margin: 20px 70px 100px 55px;
+    margin: 20px 70px 40px 55px;
     background-color: rgb(118, 175, 64);
 }
 .bottom2{
     width:40% ;
     height: 150px;
     float: left;
-    margin: 20px 10px 100px 55px;
+    margin: 20px 10px 40px 55px;
     background-color: rgb(118, 175, 64);
 }
 .sec1{
@@ -181,4 +181,11 @@ button:hover{
     color: white;
     padding: 10px;
     text-align: justify;
+}
+.prag1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 100%;
+    height: 90px; 
 }
