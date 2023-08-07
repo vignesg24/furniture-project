@@ -3,11 +3,11 @@
 }
 body{
     background-color: #ada7a7;
+    padding: 20px 80px;
 }
 .box-sub{
-    background-color: white ;
-    width: 90%;
-    margin: 50px auto;
+    background-color: white;
+    padding: 0 60px;
 }
 .box-sub ul{
     text-align: center;
@@ -32,13 +32,10 @@ li:hover{
     color: rgb(73, 59, 59);
 }
 .photo{
-    width: 90%;
-    height: 500px;
-    background-image: url('image/image1.jpeg');
-    background-position:center;
-    background-size: cover;
-    margin: auto;
     margin-bottom: 60px ;
+}
+.photo img{
+    width: 100%;
 }
 .f1 , .f2 ,.f3{
     width: 25%;
@@ -46,7 +43,6 @@ li:hover{
     background-image: url('image/image2.jpeg');
     background-position:top center;
     float: left;
-    margin:0 70px 30px 60px;
     background-repeat: no-repeat;
 }
 h3{
@@ -68,12 +64,12 @@ h5{
 }
 .f2{
     background-image: url('image/image3.jpeg');
-    margin: 0 70px 30px 25px ;
+    margin-left:131px;
 }
 .f3{
     background-image: url('image/image4.jpeg');
-    margin: 0 0 30px 15px;
     background-size: cover;
+    margin-left:131px;
 }
 .clearfix{
     clear: left;
@@ -108,26 +104,27 @@ button:hover{
     background-color: brown;
 }
 .word1{
-    margin:10px 70px 40px 60px;
+    margin-top:20px;
 }
 .word2{
-    margin: 10px 70px 40px 25px ;    
+    margin: 20px 0 0 131px;    
 }
 .word3{
-    margin: 10px 20px 40px 15px;
+    margin: 20px 0 0 131px;
 }
 .bottom1{
-    width: 40%;
+    width: 45%;
     height: 150px;
     float:left;
-    margin: 20px 70px 40px 55px;
+    margin-top: 70px;
     background-color: rgb(118, 175, 64);
 }
 .bottom2{
-    width:40% ;
+    width:45% ;
     height: 150px;
     float: left;
-    margin: 20px 10px 40px 55px;
+    margin-top: 70px;
+    margin-left: 104px;
     background-color: rgb(118, 175, 64);
 }
 .sec1{
@@ -143,7 +140,6 @@ button:hover{
 }
 .sec1 h1{
     color: white;
-    font-family: none;
 }
 .sec3{
     width: 30%;
@@ -186,6 +182,5 @@ button:hover{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    width: 100%;
-    height: 90px; 
+    padding: 50px;
 }
